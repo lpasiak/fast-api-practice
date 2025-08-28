@@ -10,5 +10,6 @@ def index() -> dict:
         "mess": "pf",
     }
 
+
 def home() -> None:
     pass

@@ -7,7 +7,3 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.116.1",
 ]
-
-[tool.ruff]
-lint.extend-select = ["ALL"]
-lint.ignore = ["D100", "D203", "D213", "D103", "COM812"]
