@@ -9,9 +9,5 @@ dependencies = [
 ]
 
 [tool.ruff]
-line-length = 100
-lint.extend-select = ["PTH"]
-
-[tool.ruff.format]
-quote-style = "single"
-docstring-code-format = true
+lint.extend-select = ["ALL"]
+lint.ignore = ["D100", "D203", "D213", "D103", "COM812"]
